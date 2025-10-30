@@ -150,6 +150,7 @@
       
       // Create container for navigation
       const navContainer = document.createElement('div');
+      navContainer.dataset.wmPlugin = 'blog-pagination-glide';
       navContainer.className = settings.containerClass;
       navContainer.dataset.sectionTheme = getSectionTheme();
       
