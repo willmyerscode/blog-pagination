@@ -1,12 +1,31 @@
 /**
 
 ## Custom Properties
+
+Container & Layout:
 --blog-pagination-width: 320px;
 --blog-pagination-height: 100px;
 --blog-pagination-border-radius: 8px;
+--blog-pagination-text-padding: 17px;
+
+Thumbnail:
 --blog-pagination-thumbnail-width: 100px;
 --blog-pagination-thumbnail-height: 100px;
---blog-pagination-text-padding: 17px;
+
+
+Label:
+--blog-pagination-label-color: var(--paragraphMediumColor);
+--blog-pagination-label-font-weight: 600;
+--blog-pagination-label-font-text-transform: uppercase;
+--blog-pagination-label-font-letter-spacing: 1px;
+
+Title:
+--blog-pagination-title-color: var(--paragraphMediumColor);
+--blog-pagination-title-font-style: var(--blog-item-title-font-font-style);
+--blog-pagination-title-font-weight: var(--blog-item-title-font-font-weight);
+--blog-pagination-title-font-letter-spacing: var(--blog-item-title-font-letter-spacing);
+--blog-pagination-title-font-text-transform: var(--blog-item-title-font-text-transform);
+
 **/
 
 
